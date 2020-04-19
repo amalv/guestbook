@@ -2,4 +2,5 @@
 .next
 # Dependency directories
 node_modules
-
+# Now config folder
+.now
