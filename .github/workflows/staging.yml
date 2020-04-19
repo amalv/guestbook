@@ -1,0 +1,30 @@
+name: Staging 
+
+on:
+  push:
+    branches-ignore:
+      - master
+
+jobs:
+  deploy:
+    if: contains(github.event.head_commit.message, 'skip ci') == false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: amondnet/now-deployment@v2
+        id: deployment_metadata
+        with:
+          zeit-token: ${{ secrets.ZEIT_TOKEN }} # Required
+          github-token: ${{ secrets.GH_TOKEN }} #Optional 
+          now-org-id: ${{ secrets.NOW_ORG_ID}}  #Required
+          now-project-id: ${{ secrets.NOW_PROJECT_ID}} #Required 
+      - shell: bash
+        env:
+          PREVIEW_URL: ${{ steps.deployment_metadata.outputs.preview-url }}
+        run: |
+          echo $PREVIEW_URL > preview_url.txt
+      - name: Upload preview url from deploy
+        uses: actions/upload-artifact@v1
+        with:
+          name: deployment
+          path: preview_url.txt
