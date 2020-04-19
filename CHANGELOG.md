@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/amalv/guestbook/compare/v1.0.1...v1.1.0) (2020-04-19)
+
+
+### Features
+
+* Add Material UI and Typescript support ([c22fc2b](https://github.com/amalv/guestbook/commit/c22fc2b245646fde6972542a00c19a3eb85c0d48)), closes [#3](https://github.com/amalv/guestbook/issues/3) [#7](https://github.com/amalv/guestbook/issues/7)
+
 ## [1.0.1](https://github.com/amalv/guestbook/compare/v1.0.0...v1.0.1) (2020-04-19)
 
 
