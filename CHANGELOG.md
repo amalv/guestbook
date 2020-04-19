@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/amalv/guestbook/compare/v1.0.0...v1.0.1) (2020-04-19)
+
+
+### Bug Fixes
+
+* Move next and react to prod dependencies ([982b7ba](https://github.com/amalv/guestbook/commit/982b7ba24a48813a5ddc0e03f32d293ee2b89fe6)), closes [#8](https://github.com/amalv/guestbook/issues/8)
+
 # 1.0.0 (2020-04-19)
 
 
