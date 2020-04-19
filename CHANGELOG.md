@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/amalv/guestbook/compare/v1.1.0...v1.2.0) (2020-04-19)
+
+
+### Features
+
+* Add staging config for Github Actions ([a587ef8](https://github.com/amalv/guestbook/commit/a587ef886581c860cb7d0001598eddc481fea8e4)), closes [#11](https://github.com/amalv/guestbook/issues/11)
+
 # [1.1.0](https://github.com/amalv/guestbook/compare/v1.0.1...v1.1.0) (2020-04-19)
 
 
