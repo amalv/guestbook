@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/amalv/guestbook/compare/v1.3.0...v1.4.0) (2020-04-20)
+
+
+### Features
+
+* Add Github Actions badges ([d6917dd](https://github.com/amalv/guestbook/commit/d6917ddd8994e6adfaffc7591395c4bce0b1bb91)), closes [#15](https://github.com/amalv/guestbook/issues/15)
+
 # [1.3.0](https://github.com/amalv/guestbook/compare/v1.2.0...v1.3.0) (2020-04-20)
 
 
