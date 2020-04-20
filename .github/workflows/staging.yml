@@ -28,3 +28,18 @@ jobs:
         with:
           name: deployment
           path: preview_url.txt
+  e2e:
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - uses: actions/checkout@v2
+      - name: Download preview url from deployment job
+        uses: actions/download-artifact@v1
+        with:
+          name: deployment
+      - name: Run Cypress
+        run: |
+          PREVIEW_URL=`cat deployment/preview_url.txt`
+          CYPRESS_baseUrl=$PREVIEW_URL npx cypress run
+        env:
+          CI: true

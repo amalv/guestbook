@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "cypress:open": "cypress open"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +24,7 @@
     "@semantic-release/git": "^9.0.0",
     "@types/node": "^13.13.0",
     "@types/react": "^16.9.34",
+    "cypress": "^4.4.1",
     "typescript": "^3.8.3"
   },
   "plugins": [
