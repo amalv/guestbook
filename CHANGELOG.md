@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/amalv/guestbook/compare/v1.2.0...v1.3.0) (2020-04-20)
+
+
+### Features
+
+* Add cypress and e2e config for CI ([4dd3c43](https://github.com/amalv/guestbook/commit/4dd3c43241a3ad105dc1217fb154309412909d27)), closes [#13](https://github.com/amalv/guestbook/issues/13)
+
 # [1.2.0](https://github.com/amalv/guestbook/compare/v1.1.0...v1.2.0) (2020-04-19)
 
 
