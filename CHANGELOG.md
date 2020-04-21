@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/amalv/guestbook/compare/v1.4.0...v1.5.0) (2020-04-21)
+
+
+### Features
+
+* Add Styled Components ([d1f845b](https://github.com/amalv/guestbook/commit/d1f845bfc16c99965d59448ff32c830bd92ee65e)), closes [#18](https://github.com/amalv/guestbook/issues/18)
+
 # [1.4.0](https://github.com/amalv/guestbook/compare/v1.3.0...v1.4.0) (2020-04-20)
 
 
