@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/amalv/guestbook/compare/v1.5.0...v1.6.0) (2020-04-21)
+
+
+### Features
+
+* Add deploy to production in CI ([9d7a986](https://github.com/amalv/guestbook/commit/9d7a98691dc76b8141b5e0108ce3215149d8cfd8)), closes [#22](https://github.com/amalv/guestbook/issues/22)
+
 # [1.5.0](https://github.com/amalv/guestbook/compare/v1.4.0...v1.5.0) (2020-04-21)
 
 
