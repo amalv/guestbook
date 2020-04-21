@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/amalv/guestbook/compare/v1.6.0...v1.6.1) (2020-04-21)
+
+
+### Bug Fixes
+
+* Skip now client question in CI ([290ba1f](https://github.com/amalv/guestbook/commit/290ba1fe3935dc75fb6e747ae81dee2ce05dafe1))
+
 # [1.6.0](https://github.com/amalv/guestbook/compare/v1.5.0...v1.6.0) (2020-04-21)
 
 
