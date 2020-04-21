@@ -17,7 +17,8 @@
     "@material-ui/core": "^4.9.11",
     "next": "^9.3.5",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
