@@ -21,3 +21,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npx semantic-release
+      - name: Deploy to production 
+        run: npx now --prod --token=${{ secrets.ZEIT_TOKEN }}
