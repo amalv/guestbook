@@ -1,8 +1,9 @@
-import React from 'react';
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+/* eslint-disable @typescript-eslint/explicit-function-return-type */
+import React from "react";
+import Document, { Html, Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
-import { ServerStyleSheets } from '@material-ui/core/styles';
-import theme from '../src/theme';
+import { ServerStyleSheets } from "@material-ui/core/styles";
+import theme from "../src/theme";
 
 export default class MyDocument extends Document {
   render() {
@@ -55,9 +56,9 @@ MyDocument.getInitialProps = async (ctx) => {
 
   ctx.renderPage = () =>
     originalRenderPage({
-      enhanceApp: App => props =>
+      enhanceApp: (App) => (props) =>
         styledComponentsSheet.collectStyles(
-          materialSheets.collect(<App {...props} />),
+          materialSheets.collect(<App {...props} />)
         ),
     });
 
