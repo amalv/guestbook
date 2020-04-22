@@ -1,12 +1,10 @@
-import React from 'react';
+import React from "react";
 import Divider from "@material-ui/core/Divider";
 import Grid from "@material-ui/core/Grid";
-import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
+import Box from "@material-ui/core/Box";
 import { GridContainer, PaperStyled } from "./App.styles";
 
-const App = () => (
+const App: React.FC = () => (
   <GridContainer container>
     <Grid item xs={12}>
       <Box p={1}>
@@ -58,7 +56,7 @@ const App = () => (
         <PaperStyled>xs=12 sm=6</PaperStyled>
       </Box>
     </Grid>
-    </GridContainer>
-  );
+  </GridContainer>
+);
 
 export default App;
