@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/amalv/guestbook/compare/v1.6.1...v1.6.2) (2020-04-22)
+
+
+### Bug Fixes
+
+* Update document page in order to support SSR ([a076525](https://github.com/amalv/guestbook/commit/a0765257967cfce83c996b2f70d640a2fbc5a864)), closes [#20](https://github.com/amalv/guestbook/issues/20)
+
 ## [1.6.1](https://github.com/amalv/guestbook/compare/v1.6.0...v1.6.1) (2020-04-21)
 
 
