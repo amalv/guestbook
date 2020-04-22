@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/amalv/guestbook/compare/v1.6.2...v1.7.0) (2020-04-22)
+
+
+### Features
+
+* Add prettier and eslint ([f9a00eb](https://github.com/amalv/guestbook/commit/f9a00eba26bcedd84cebe5e818f8dde098b9c8e6)), closes [#21](https://github.com/amalv/guestbook/issues/21)
+
 ## [1.6.2](https://github.com/amalv/guestbook/compare/v1.6.1...v1.6.2) (2020-04-22)
 
 
