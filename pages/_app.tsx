@@ -7,11 +7,9 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import theme from "../src/theme";
 
 const MyApp: NextComponentType<AppContext, AppInitialProps, AppProps> = ({
-  // eslint-disable-next-line react/prop-types
   Component,
-  // eslint-disable-next-line react/prop-types
   pageProps,
-}) => {
+}: AppContext) => {
   React.useEffect(() => {
     // Remove the server-side injected CSS.
     const jssStyles = document.querySelector("#jss-server-side");
