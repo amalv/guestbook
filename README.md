@@ -15,3 +15,19 @@ Next.js project with a Guestbook example app which provides a lot of features ou
 - **Cypress** - End-to-end testing tool.
 - **Semantic Release** - Fully automated version management which follows the Semantic Versioning specification.
 - **Grid** - Responsive UI based on a 12-column grid layout.
+
+## Setup
+
+### Install dependencies
+
+```sh
+npm install
+```
+
+### Run the app in development mode
+
+```sh
+npm run dev
+```
+
+Then open [http://localhost:3000/](http://localhost:3000/) to see your app.
