@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/amalv/guestbook/compare/v1.7.0...v1.8.0) (2020-04-24)
+
+
+### Features
+
+* Implement UI ([46d777a](https://github.com/amalv/guestbook/commit/46d777a9babfc41b4f5389cdea7fb982c08b02b1)), closes [#26](https://github.com/amalv/guestbook/issues/26)
+
 # [1.7.0](https://github.com/amalv/guestbook/compare/v1.6.2...v1.7.0) (2020-04-22)
 
 
