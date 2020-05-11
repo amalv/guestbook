@@ -17,6 +17,9 @@
   "dependencies": {
     "@material-ui/core": "^4.9.13",
     "next": "^9.3.6",
+    "@types/node-fetch": "^2.5.7",
+    "aws-amplify": "^3.0.9",
+    "isomorphic-unfetch": "^3.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.1.0"
